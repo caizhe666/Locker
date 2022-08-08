@@ -1,0 +1,8 @@
+{
+  "name": "Locker",
+  "version-string": "1.0.0.1",
+  "dependencies": [
+    "lazy_importer",
+    "spdlog"
+  ]
+}
