@@ -35,6 +35,10 @@ jobs:
         vcpkgGitCommitId: '75260879edfd87345260cd913f4f065c399253d1'
         runVcpkgInstall : true
 
+    - name: Restore vcpkg packages
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: vcpkg integrate install
+
     - name: Restore NuGet packages
       working-directory: ${{env.GITHUB_WORKSPACE}}
       run: nuget restore ${{env.SOLUTION_FILE_PATH}}
