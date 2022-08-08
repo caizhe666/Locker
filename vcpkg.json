@@ -3,7 +3,13 @@
   "name": "locker",
   "version-string": "1.0.0.1",
   "dependencies": [
-    "lazy-importer",
-    "spdlog"
+    {
+      "name": "lazy-importer",
+      "platform": "windows & static"
+    },
+    {
+      "name": "spdlog",
+      "platform": "windows & static"
+    }
   ]
 }
