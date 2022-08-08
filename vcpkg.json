@@ -1,5 +1,6 @@
 {
-  "name": "Locker",
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "locker",
   "version-string": "1.0.0.1",
   "dependencies": [
     "lazy_importer",
