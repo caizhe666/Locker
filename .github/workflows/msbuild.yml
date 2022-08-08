@@ -33,6 +33,7 @@ jobs:
       with:
         vcpkgJsonGlob: '**/vcpkg.json'
         vcpkgGitCommitId: '75260879edfd87345260cd913f4f065c399253d1'
+        runVcpkgInstall : true
 
     - name: Restore NuGet packages
       working-directory: ${{env.GITHUB_WORKSPACE}}
