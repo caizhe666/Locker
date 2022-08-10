@@ -10,6 +10,30 @@
     {
       "name": "spdlog",
       "platform": "windows & static"
+    },
+    {
+      "name": "boost-filesystem",
+      "platform": "windows & static"
+    },
+    {
+      "name": "boost",
+      "platform": "windows & static"
+    },
+    {
+      "name": "gtest",
+      "platform": "windows & static"
+    },
+    {
+      "name": "benchmark",
+      "platform": "windows & static"
+    },
+    {
+      "name": "cryptopp",
+      "platform": "windows & static"
+    },
+    {
+      "name": "clipboardxx",
+      "platform": "windows & static"
     }
   ]
 }

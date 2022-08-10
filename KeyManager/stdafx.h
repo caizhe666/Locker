@@ -1,0 +1,25 @@
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <spdlog/tweakme.h>
+#include <iostream>
+#include <Windows.h>
+#include <conio.h>
+#include <spdlog/spdlog.h>
+#include <fmt/xchar.h>
+#include <lazy_importer.hpp>
+#include "XorString.h"
+#include <boost/filesystem.hpp>
+#include <benchmark/benchmark.h>
+#include <chrono>
+#include <fstream>
+#include <boost/serialization/string.hpp>
+#include <boost/serialization/serialization.hpp>
+#include <boost/archive/text_oarchive.hpp>
+#include <boost/archive/text_iarchive.hpp>
+#include <filesystem>
+#include <cryptopp/aes.h>
+#include <cryptopp/eccrypto.h>
+#include <cryptopp/osrng.h>
+#include <cryptopp/oids.h>
+#include <cryptopp/hex.h>
+#include <cryptopp/filters.h>
