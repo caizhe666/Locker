@@ -47,6 +47,7 @@ jobs:
 
     # Drafts your next Release notes as Pull Requests are merged into "master"
     - uses: release-drafter/release-drafter@v5
+      permissions: write-all
       # (Optional) specify config name to use, relative to .github/. Default: release-drafter.yml
       # with:
       #   config-name: my-config.yml
