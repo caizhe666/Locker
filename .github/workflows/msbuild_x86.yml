@@ -44,13 +44,3 @@ jobs:
       # Add additional options to the MSBuild command line here (like platform or verbosity level).
       # See https://docs.microsoft.com/visualstudio/msbuild/msbuild-command-line-reference
       run: msbuild /m /p:Configuration=${{env.BUILD_CONFIGURATION}} /p:Platform=${{env.ARCH_CONFIGURATION}} ${{env.SOLUTION_FILE_PATH}}
-
-    # Drafts your next Release notes as Pull Requests are merged into "master"
-    - uses: release-drafter/release-drafter@v5
-      permissions: write-all
-      # (Optional) specify config name to use, relative to .github/. Default: release-drafter.yml
-      # with:
-      #   config-name: my-config.yml
-      #   disable-autolabeler: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

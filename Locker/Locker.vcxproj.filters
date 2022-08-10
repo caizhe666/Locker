@@ -36,5 +36,6 @@
     <None Include="..\.github\workflows\msbuild_x86.yml" />
     <None Include="..\.github\workflows\msbuild_x64.yml" />
     <None Include="..\.github\release-drafter.yml" />
+    <None Include="..\.github\workflows\release-drafter.yml" />
   </ItemGroup>
 </Project>
