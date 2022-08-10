@@ -13,4 +13,5 @@
 
 ## 状态
 
-[![MSBuild](https://github.com/caizhe666/Locker/actions/workflows/msbuild.yml/badge.svg)](https://github.com/caizhe666/Locker/actions/workflows/msbuild.yml)
+[![MSBuild_x64](https://github.com/caizhe666/Locker/actions/workflows/msbuild_x64.yml/badge.svg)](https://github.com/caizhe666/Locker/actions/workflows/msbuild_x64.yml)
+[![MSBuild_x86](https://github.com/caizhe666/Locker/actions/workflows/msbuild_x86.yml/badge.svg)](https://github.com/caizhe666/Locker/actions/workflows/msbuild_x86.yml)
