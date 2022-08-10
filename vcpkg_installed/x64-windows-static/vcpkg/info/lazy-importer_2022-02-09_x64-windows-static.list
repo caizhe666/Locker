@@ -1,0 +1,8 @@
+x64-windows-static/
+x64-windows-static/include/
+x64-windows-static/include/lazy_importer.hpp
+x64-windows-static/share/
+x64-windows-static/share/lazy-importer/
+x64-windows-static/share/lazy-importer/copyright
+x64-windows-static/share/lazy-importer/vcpkg.spdx.json
+x64-windows-static/share/lazy-importer/vcpkg_abi_info.txt

@@ -1,0 +1,8 @@
+Package: lazy-importer
+Version: 2022-02-09
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 5616e5d23b8802ee79c9933e85158ccf66c7a60f5b6737fc128d0c90492dc2b9
+Description: Library for importing functions from dlls in a hidden, reverse engineer unfriendly way
+Type: Port
+Status: install ok installed

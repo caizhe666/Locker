@@ -1,0 +1,115 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/lazy-importer-x64-windows-static-2022-02-09-fa500f15-e030-4dfa-830f-1c142e91e458",
+  "name": "lazy-importer:x64-windows-static@2022-02-09 5616e5d23b8802ee79c9933e85158ccf66c7a60f5b6737fc128d0c90492dc2b9",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-67e17c1782801cf481be9ac0b3765dff3e4bdeb8"
+    ],
+    "created": "2022-08-06T07:08:11Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "lazy-importer",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2022-02-09",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/lazy-importer",
+      "homepage": "https://github.com/JustasMasiulis/lazy_importer",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Library for importing functions from dlls in a hidden, reverse engineer unfriendly way",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "lazy-importer:x64-windows-static",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "5616e5d23b8802ee79c9933e85158ccf66c7a60f5b6737fc128d0c90492dc2b9",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "JustasMasiulis/lazy_importer",
+      "downloadLocation": "git+https://github.com/JustasMasiulis/lazy_importer@edac6afddb9e0df2e3affa8b2d631caafcba69ed",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "45f024c34fa1c8854b8b77706934ce95449b2416a5c1dcab970d0df068c9b5bf0de12994c13ac215e629f8ae21fdab75b4ce6535f56ca7508f490a4c664e5b1a"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5a3b8f594a62da19b4f7509a2db55f9484263c6609be35829dc80a34b16ead37"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "09f59605726f8b76b19d3615324fe58019483c604e853ac4dab4ab3eea54aa9b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
