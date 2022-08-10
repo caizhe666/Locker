@@ -179,9 +179,9 @@
     <ClInclude Include="XorString.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\.github\release-drafter.yml" />
     <None Include="..\.github\workflows\msbuild_x64.yml" />
     <None Include="..\.github\workflows\msbuild_x86.yml" />
-    <None Include="..\.github\workflows\release-drafter.yml" />
     <None Include="..\README.md" />
     <None Include="..\vcpkg.json" />
   </ItemGroup>
